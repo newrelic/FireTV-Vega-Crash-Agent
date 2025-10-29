@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@amazon-devices/react-native-kepler": "^2.0.0",
-    "@amzn/nrkeplercrash": "file:amzn-nrkeplercrash-1.0.65-beta.tgz",
+    "@amzn/nrkeplercrash": "file:../../",
     "react": "18.2.0",
     "react-native": "0.72.0"
   },
