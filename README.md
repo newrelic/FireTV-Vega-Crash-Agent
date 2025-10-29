@@ -392,9 +392,10 @@ NrKeplerCrash.addCustomAttributes({
 
 ## Support
 
-New Relic hosts and moderates an online forum where customers can interact with New Relic employees as well as other customers to get help and share best practices. Like all official New Relic open source projects, there's a related Community topic in the New Relic Explorers Hub. You can find this project's topic/threads here:
-
->Add the url for the support thread here
+For support and questions:
+- Visit the [New Relic Explorers Hub](https://support.newrelic.com/s/)
+- File issues on the [project's GitHub repository](https://github.com/newrelic/FireTV-Vega-Crash-Agent/issues)
+- Contact New Relic support through your account
 
 ## Contributing
 We encourage your contributions to improve FireTV-Vega-Crash-Agent! Keep in mind when you submit your pull request, you'll need to sign the CLA via the click-through using CLA-Assistant. You only have to sign the CLA one time per project.
@@ -406,6 +407,12 @@ As noted in our [security policy](../../security/policy), New Relic is committed
 
 If you believe you have found a security vulnerability in this project or any of New Relic's products or websites, we welcome and greatly appreciate you reporting it to New Relic through [HackerOne](https://hackerone.com/newrelic).
 
-## License
-[Project Name] is licensed under the [Apache 2.0](http://apache.org/licenses/LICENSE-2.0.txt) License.
->[If applicable: The [project name] also uses source code from third-party libraries. You can find full details on which libraries are used and the terms under which they are licensed in the third-party notices document.]
+## License.
+
+FireTV Vega Agent is licensed under the [New Relic Pre-release policy](https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/new-relic-pre-release-policy/).
+
+**Beta Release Notice:**
+- This is a beta release suitable for testing and evaluation
+- APIs may change in future versions based on feedback
+- Please report issues and provide feedback via GitHub issues
+- Contributions and pull requests are welcome
