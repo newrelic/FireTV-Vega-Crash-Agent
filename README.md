@@ -409,7 +409,7 @@ If you believe you have found a security vulnerability in this project or any of
 
 ## License.
 
-FireTV Vega Agent is licensed under the [New Relic Pre-release policy](https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/new-relic-pre-release-policy/).
+FireTV Crash Agent is licensed under the [New Relic Pre-release policy](https://docs.newrelic.com/docs/licenses/license-information/referenced-policies/new-relic-pre-release-policy/).
 
 **Beta Release Notice:**
 - This is a beta release suitable for testing and evaluation
