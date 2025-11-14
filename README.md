@@ -18,6 +18,11 @@ New Relic for monitoring and analysis.
 - **Automatic Retry**: Processes pending error files on app restart
 - **Test Functionality**: Built-in crash testing for validation
 
+## Requirements
+
+* Vega SDK v0.21+
+* React Native v0.72.0+
+
 ## Installation
 
 This repository contains a pre-built crash agent package that you can directly install in your FireTV Vega application.
