@@ -20,8 +20,8 @@ New Relic for monitoring and analysis.
 
 ## Requirements
 
-* Kepler SDK v0.7+
-* React Native v0.21.0+
+* Vega SDK v0.21+
+* React Native v0.72.0+
 
 ## Installation
 
