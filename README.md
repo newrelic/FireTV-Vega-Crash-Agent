@@ -66,7 +66,7 @@ NrKeplerCrash.registerHandler("<ACCOUNT ID>", "<API KEY>", "<US or EU>");
 If your application uses a `WebView` component, **`registerHandler` must be called inside the `onLoad` prop of the `WebView`**. This ensures the handler is registered only after the web context is fully initialized.
 
 ```javascript
-import { WebView } from 'react-native-webview';
+import { WebView } from "@amazon-devices/webview";
 import { NrKeplerCrash } from '@amzn/nrkeplercrash';
 
 <WebView
