@@ -61,6 +61,27 @@ And, after the call to `startAgent`, register the crash handler.
 NrKeplerCrash.registerHandler("<ACCOUNT ID>", "<API KEY>", "<US or EU>");
 ```
 
+### WebView Integration
+
+If your application uses a `WebView` component, **`registerHandler` must be called inside the `onLoad` prop of the `WebView`**. This ensures the handler is registered only after the web context is fully initialized.
+
+```javascript
+import { WebView } from "@amazon-devices/webview";
+import { NrKeplerCrash } from '@amzn/nrkeplercrash';
+
+<WebView
+    source={{ uri: 'https://www.google.com' }}
+    javaScriptEnabled={true}
+    onLoad={(event) => {
+        NrKeplerCrash.registerHandler(
+            "YOUR_ACCOUNT_ID",
+            "YOUR_API_KEY",
+            "US" // or "EU"
+        );
+    }}
+/>
+```
+
 ## Configuration Parameters
 
 - **accountId**: Your New Relic account ID
@@ -108,6 +129,10 @@ kepler build
 ```
 
 ## Testing
+
+> ⚠️ **Test in Release Mode**
+>
+> The package distributed in this repository (`amzn-nrkeplercrash-x.y.z-beta.tgz`) is a **release build** — we only provide release builds for crash reporting. Crash capture and reporting **will not work as expected in debug builds**. Always validate the integration against a release build of your Vega application before reporting issues.
 
 The New Relic vega Crash turbo module provides a method to force a crash. You can call it to check that it can actually track crashes and report data to New Relic. Just call this method:
 
