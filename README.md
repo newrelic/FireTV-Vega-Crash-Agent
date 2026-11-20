@@ -57,8 +57,8 @@ import { NrKeplerCrash } from '@amzn/nrkeplercrash';
 And, after the call to `startAgent`, register the crash handler.
 
 ```javascript
-// Set Account ID, API Key and Endpoint (either "US" or "EU").
-NrKeplerCrash.registerHandler("<ACCOUNT ID>", "<API KEY>", "<US or EU>");
+// Set Account ID, API Key and Endpoint (either "US", "EU", or "JP").
+NrKeplerCrash.registerHandler("<ACCOUNT ID>", "<API KEY>", "<US or EU or JP>");
 ```
 
 ### WebView Integration
@@ -86,7 +86,7 @@ import { NrKeplerCrash } from '@amzn/nrkeplercrash';
 
 - **accountId**: Your New Relic account ID
 - **apiKey**: Your New Relic API key (Ingest - License key)
-- **endpoint**: Region endpoint - "US" or "EU"
+- **endpoint**: Region endpoint - "US", "EU", or "JP"
 - **appVersion (Optional)**: Your application version string
 
 ## Quick Start Example
@@ -151,7 +151,7 @@ Registers the crash handler with New Relic configuration.
 **Parameters:**
 - `accountId`: New Relic account ID
 - `apiKey`: New Relic API key
-- `endpoint`: "US" or "EU" region
+- `endpoint`: "US", "EU", or "JP" region
 - `appVersion` (Optional): Application version
 
 ```javascript
